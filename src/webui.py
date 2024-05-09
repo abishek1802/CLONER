@@ -7,6 +7,12 @@ from argparse import ArgumentParser
 
 import gradio as gr
 
+label_style = {
+    "font-size": "24px",  # Change font size
+    "font-family": "Arial, sans-serif",  # Change font family
+    "color": "#FF5733",  # Change font color
+    "text-align": "center"  # Align text to center
+}
 from main import song_cover_pipeline
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
